@@ -1,8 +1,25 @@
 aid: spero-therapeutics
-name: Spero Therapeutics *
-description: 'Spero Therapeutics * is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spero-therapeutics.png
+name: Spero Therapeutics
+description: 'Spero Therapeutics is a clinical-stage biopharmaceutical company advancing
+  innovative medicines for immune-mediated and infectious diseases. Its pipeline includes
+  SP001, a third-generation anti-CD40L antibody targeting IgG4-related disease, alongside
+  earlier programs in antibacterial and rare-disease therapeutics. Spero was surfaced
+  as a portfolio company of GV and added to the API Evangelist network. As a life-sciences
+  drug developer, Spero publishes a corporate and investor-relations web presence but
+  no public developer API, developer portal, or technical integration surface; this
+  profile captures its identity and probed domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/spero-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Life Sciences
+- Biopharmaceutical
+- Clinical Stage
+- Drug Development
+- Immunology
+- Infectious Disease
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/spero-therapeutics-domain-security.yml
 - type: Website
-  url: http://sperotherapeutics.com
+  url: https://www.sperotx.com
+- type: PrivacyPolicy
+  url: https://www.sperotx.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.sperotx.com/terms-of-use/
+- type: Blog
+  url: https://www.sperotx.com/investors/press-releases/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
